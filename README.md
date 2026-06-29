@@ -171,7 +171,7 @@ sql/
 выгрузка датасета произошла в начале сентября 2018, и всё после августа
 неполно по построению, а не сигнал о бизнесе.
 → Период анализа ограничен августом 2018 включительно.
-*(`sql/01_data_validation.sql`)*
+[Data Validation](01_data_validation.sql)
 
 ### 2. Идём по следу retention
 
@@ -183,7 +183,7 @@ sql/
 взвешенное по размеру среднее и исключение когорт младше 50 человек дал
 совсем другую, куда более тревожную цифру: **0.45% retention в первый
 месяц**.
-*(`sql/02_cohort_retention.sql`)*
+[Cohort Retention Analysis](02_cohort_retention.sql)
 
 ### 3. Проверяем гипотезу «0% повторных клиентов» на прочность
 
@@ -194,7 +194,7 @@ sql/
 возвращаются**, один из них — 15 раз. Olist не чистая модель «купил и
 ушёл навсегда»; внутри в целом дырявой воронки есть небольшой, измеримый
 лояльный хвост.
-*(`sql/07_rfm_segmentation.sql`)*
+[RFM Segmentation](07_rfm_segmentation.sql)
 
 ### 4. Откуда реально берётся рост
 
@@ -216,8 +216,10 @@ sql/
   (клиенты терпят: 0.08% отмен), против ~12–13 дней для электроники и
   косметики.
 
-*(`sql/04_category_analysis.sql`, `sql/05_seller_performance.sql`,
-`sql/06_logistics_sla.sql`)*
+[Category Analysis](04_category_analysis.sql), 
+[Seller Performance](05_seller_performance.sql), 
+[Logistics SLA Analysis](06_logistics_sla.sql)
+
 
 ## Что это значит для бизнеса
 
