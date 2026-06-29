@@ -21,7 +21,7 @@ then drops to near-zero for September/October — meaning the dataset was
 extracted in early September 2018, and anything after August is incomplete
 by design, not a business signal.
 → Analysis window capped at August 2018.
-[Cohort Retention Analysis (SQL)](sql/02_cohort_retention.sql)
+[Data Validation(SQL)](01_data_validation.sql)
 
 
 ### 2. Following the retention thread
@@ -33,7 +33,7 @@ month one — until checking cohort sizes showed two single-customer cohorts
 of 7,000+ people. Switching to a size-weighted average and excluding
 cohorts under 50 customers gave a very different, far more sobering number:
 **0.45% retention in month one.**
-*(`sql/02_cohort_retention.sql`)*
+[Cohort Retention Analysis](02_cohort_retention.sql)
 
 ### 3. Stress-testing the "0% repeat customers" hypothesis
 
