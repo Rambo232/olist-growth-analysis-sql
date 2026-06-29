@@ -21,7 +21,7 @@ then drops to near-zero for September/October — meaning the dataset was
 extracted in early September 2018, and anything after August is incomplete
 by design, not a business signal.
 → Analysis window capped at August 2018.
-[Data Validation(SQL)](01_data_validation.sql)
+[Data Validation](01_data_validation.sql)
 
 
 ### 2. Following the retention thread
@@ -43,7 +43,8 @@ on every single order) shows **97.0% of customers buy exactly once — but
 3.0% (2,801 people) do come back**, one of them 15 times. Olist isn't a
 pure one-and-done marketplace; it has a small, measurable loyal tail
 buried inside an otherwise leaky funnel.
-*(`sql/07_rfm_segmentation.sql`)*
+[RFM Segmentation](07_rfm_segmentation.sql)
+
 
 ### 4. Where the growth actually comes from
 
@@ -51,7 +52,7 @@ If retention isn't driving growth, acquisition is. New-customer counts
 jump sharply around November 2017 (Brazil's Black Friday) and plateau at
 6,000–6,500/month through 2018 — a ceiling on current acquisition
 channels, not a retention failure.
-*(`sql/03_revenue_growth.sql`)*
+[Revenue Growth Analysis](03_revenue_growth.sql)
 
 ### 5. Looking for where the business can actually act
 
@@ -65,8 +66,10 @@ channels, not a retention failure.
   deliver, and customers tolerate it (0.08% cancellation), vs. ~12–13 days
   for electronics and beauty products.
 
-*(`sql/04_category_analysis.sql`, `sql/05_seller_performance.sql`,
-`sql/06_logistics_sla.sql`)*
+[Category Analysis](04_category_analysis.sql), 
+[Seller Performance](05_seller_performance.sql), 
+[Logistics SLA Analysis](06_logistics_sla.sql)
+
 
 ## What This Means For The Business
 
