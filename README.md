@@ -21,7 +21,7 @@ then drops to near-zero for September/October — meaning the dataset was
 extracted in early September 2018, and anything after August is incomplete
 by design, not a business signal.
 → Analysis window capped at August 2018.
-*(`sql/01_data_validation.sql`)*
+*(`01_data_validation.sql`)*
 
 ### 2. Following the retention thread
 
