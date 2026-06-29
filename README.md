@@ -1,6 +1,6 @@
 # Why Did Olist's Growth Stall? An E-Commerce Data Investigation
 
-**[English](README.md) | [Русский](#Russian)**
+**[English](README.md) | [Русский](#почему-рост-olist-остановился-расследование-на-данных)**
 
 
 ## The Question
